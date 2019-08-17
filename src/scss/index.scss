@@ -22,8 +22,14 @@ $family-sans-serif: 'Nunito', sans-serif;
 $primary: $medium-purple;
 $secondary: $max-blue-purple;
 $link: $purple-navy;
-
+$input-shadow: none;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
+body {
+    background-color: $ghost-white;
+}
+
 @import "../../node_modules//bulma/bulma.sass";
+@import "./dashboard.scss";
+@import "./utils.scss";

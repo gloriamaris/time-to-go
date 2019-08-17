@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import Header from '../../components/Header'
 
 class HomeLayout extends Component {
   render () {
     return (
-      <div className='container'>
+      <Fragment>
         <Header />
-        { this.props.children }
-      </div>
+        {this.props.children}
+      </Fragment>
     )
   }
 }
