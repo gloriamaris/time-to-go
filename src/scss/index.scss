@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Brand colors -- coolors.co palette #40
+$medium-purple: #9381ff;
+$max-blue-purple: #b8b8ff;
+$ghost-white: #f8f7ff;
+$antique-white: #ffeedd;
+$unbleached-silk: #ffd8be;
+$purple-navy: #464D77;
+
+
+$celadon-green: #36827f;
+$orange-yellow: #f9dB6d;
+$snow: #f4eded;
+$shadow: #877666;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Nunito', sans-serif;
+$primary: $medium-purple;
+$secondary: $max-blue-purple;
+$link: $purple-navy;
+
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+@import "../../node_modules//bulma/bulma.sass";
